@@ -5,7 +5,9 @@
 
 # clone repo
 echo "Cloning repository..."
+git clone https://github.com/oldskoolfan/frontend-boilerplate.git
 
 # install node modules
 echo "Installing node modules..."
+cd frontend-boilerplate
 npm install
